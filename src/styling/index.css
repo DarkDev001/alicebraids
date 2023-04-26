@@ -2,7 +2,8 @@
 *{
     padding: 0%;
     margin: 0%;
-    text-decoration: none;
+    text-decoration: none !important;
+    list-style-type: none !important;
     user-select: none;
     user-zoom: fixed;
 }
@@ -69,11 +70,16 @@
     height: fit-content;
     width: 100%;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 4% !important;
     font-size: small;
     font-weight: 700;
+    position: relative;
+
+}
+._top_text a{
     color: #c72020;
 }
+
 ._body_container{
         height: 95vh;
         width: 100% !important;
@@ -260,7 +266,8 @@
         width: 100% !important;
       }
     ._top_text{
-        margin-top: 3% !important;
+        margin-top: 5% !important;
+    
         font-size: x-small;
         font-weight: 700;
         color: #9e6724;
@@ -405,4 +412,50 @@ margin-top: 12%;
     gap: 10px;
     color: #fff;
     /* background-color: #676262; */
+  }
+
+  /* ===================================================== MODAL STYLING =================================================== */
+  .modal{
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    /* opacity: 1 !important;  */
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    height: 700px !important;
+    
+  }
+  .modal-content{
+    position: absolute !important;
+    height: fit-content !important;
+    width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5 !important;  */
+   
+    border: 5px solid red !important;
+  }
+  .myInnerVideo2{
+    opacity: 0.2 !important;
+    right: 0;
+    bottom: 0;
+    width:  100% !important;
+    height: fit-content !important;
+    ;
+  }
+  .modelInnerContent{
+    /* opacity: 0.5 !important; */
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    /* background-color: #000 !important; */
+    color: #fff;
+    height: 700px !important;
+    position: absolute !important;
+    height: fit-content !important;
+    width: 100% !important;
+    padding: 20px !important;
+    text-align: start !important;
+    font-size: 20px !important;
+    /* bottom: 0;
+    top: 0; */
+
   }

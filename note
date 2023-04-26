@@ -49,3 +49,21 @@
   xl: 1200px,
   xxl: 1400px
 );
+
+<div class="modal-header ">
+  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem sint vitae natus, reprehenderit voluptate libero perspiciatis placeat eius provident tenetur magni, assumenda nihil animi harum esse maiores nemo non.
+  Ducimus quibusdam vel debitis temporibus vitae labore nisi dolores ut doloremque recusandae voluptate, unde, quaerat quisquam earum fugiat minus laboriosam! Voluptas, nemo recusandae ea corporis nesciunt quidem id hic dignissimos.
+  Sit quibusdam similique, animi doloribus molestias laborum totam a tenetur suscipit unde perferendis voluptate eius facere facilis optio odio dolor accusantium fuga possimus iste ut ipsam odit dolorem. Laborum, laudantium.
+  Ex consequatur ipsam dolores molestias in accusamus nisi optio, nulla omnis minima minus possimus dolore voluptates magni numquam voluptatum corrupti vitae reiciendis voluptatem? Quis incidunt, perferendis quod earum culpa saepe.
+  Possimus nesciunt exercitationem dolor, molestiae itaque quasi voluptatum reiciendis. Distinctio voluptatem dolore quam quis totam beatae, quia facilis commodi esse, nobis doloribus sint illum eveniet quo eaque reiciendis officia laboriosam.
+  Dolore, vitae minima ut quae nihil dolorum reprehenderit laudantium at, adipisci modi eaque sed, id odit laboriosam sit corporis soluta commodi assumenda maxime quidem facere rerum necessitatibus. Sequi, voluptates animi!
+  Minus quos veniam laboriosam voluptas sunt vitae nulla ullam porro consequuntur at aut, perspiciatis beatae? Facere, ut doloribus quo nam, optio, deleniti veniam consequuntur nemo voluptatem est incidunt quisquam fugiat?
+  Esse nemo delectus atque quibusdam ratione eveniet facere dignissimos placeat eos tenetur deleniti velit nostrum quidem doloribus, animi sapiente quia autem architecto nesciunt, excepturi fugiat! Eaque voluptas soluta corrupti nisi?
+  Id tenetur, repellendus aliquam officia, labore consectetur est repudiandae beatae vero similique a libero ea! Temporibus deleniti vitae dignissimos quasi alias, fugiat libero autem ipsum delectus veritatis obcaecati necessitatibus aliquid?
+  Optio provident tenetur dolores obcaecati nostrum modi nihil nemo, rem blanditiis voluptatem aperiam quibusdam voluptatum repellat alias accusantium dignissimos repudiandae deserunt incidunt. Nesciunt, sapiente eos cum illum voluptate vero libero.
+</div>
