@@ -1,0 +1,408 @@
+/* General Styling */
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    user-select: none;
+    user-zoom: fixed;
+}
+
+/* body{
+    background-color: red !important;
+    
+} */
+.inner-container{
+    height: 450px;
+    width: 100% !important;
+    background-color: #000;
+  
+}
+.logo img{
+    margin: 5% 0px 0px 45%;
+    height: 70px;
+    width: 10%;
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.carousel-item{
+    height: 420px;
+    width: 100% !important;
+    margin: auto;
+    border: 3px solid #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-caption{
+    text-align: center;
+    display: contents !important;   
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+}
+._text_inner{
+    margin-top: 15% !important;
+    text-align: center;
+    font-size: 70px !important;
+    color: aliceblue;
+}
+._text_inner:hover{
+    color: antiquewhite;
+
+
+}
+.carousel-item img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: block !important; */
+}
+
+._top_text{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    font-size: small;
+    font-weight: 700;
+    color: #c72020;
+}
+._body_container{
+        height: 95vh;
+        width: 100% !important;
+        background-position: center;
+        background-size: contain;
+
+    }
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    opacity: 0.5;
+    position: fixed !important;
+    right: 0;
+    bottom: 0;
+    min-width:  100%;
+    min-height: 100%;
+  }
+
+  
+  /*================================================================== LARGE SCREEN ========================================= */
+  @media only screen and (max-width: 991px) {
+    #myInnerVideo {
+        width:  100%;
+        height: 80vh !important;
+        position: absolute !important;
+      }
+    #myVideo {
+        opacity: 0.2 !important;
+      }
+    .content {
+        position: static !important;
+        margin-top: 10%;
+        height: 82vh !important;
+        width: 100% !important;
+      }
+    ._top_text{
+        margin-top: 3% !important;
+        font-size: x-small;
+        font-weight: 700;
+        color: #9e6724;
+    }
+    .carousel-item{
+        height: 78vh !important;
+    }
+    .inner-container{
+        height: 80vh !important;  
+    }
+    .logo img{
+        margin: 15% 0px 0px 40%;
+        height: 100px;
+        width: 25%;
+    }
+    .detail-text{
+
+        padding: 17% 0px 0px 0px !important;
+        height: 200px;
+        margin-bottom: 25% !important;
+        width: 100%;
+        text-align: center !important;
+ 
+      }
+      ._text_inner{
+        margin-top: 45% !important;
+        font-size: 70px !important;
+    }
+    .top-text{
+        font-size: 20px !important;
+     }
+     .bottom-text{
+        font-size: x-small !important;
+    }
+    .button-container{
+      margin-top: 0% !important;
+      width: 90% !important;
+      padding: 15px !important;
+      border-radius: 30px !important;
+      font-size: large !important;
+      margin-bottom: 5% !important;
+    }
+    .social-icon{
+       margin-left: 85% !important;
+    }
+    .social-icon2{
+        margin-left: 85% !important; 
+        margin-top: 778px !important;
+    }
+    ._social_medial{
+    margin-top: 40% !important;
+    color: #9e6724 !important;
+      }
+  }
+
+
+
+/*======================================================== MEDIUM SCREEN ===================================================*/
+@media only screen and (max-width: 767px) {
+    #myInnerVideo {
+        width:  100%;
+        height: 82vh !important;
+        position: absolute !important;
+      }
+      
+    #myVideo {
+        opacity: 0.2 !important;
+      }
+    .content {
+        position: static !important;
+        margin-top: 10%;
+        height: 85vh !important;
+        width: 100% !important;
+      }
+    ._top_text{
+        margin-top: 3% !important;
+        font-size: small;
+        font-weight: 700;
+        color: #9e6724;
+    }
+    .carousel-item{
+        height: 82vh !important;
+    }
+    .inner-container{
+        height: 82vh !important;  
+    }
+    .logo img{
+        margin: 15% 0px 0px 40%;
+        height: 100px;
+        width: 25%;
+    }
+    .detail-text{
+        margin-top: 32% !important;
+        height: fit-content;
+        width: 100%;
+        text-align: center !important;
+        /* background-color: #c72020; */
+      }
+      ._text_inner{
+        top: 40%;
+        left: 18%;
+        font-size: 90px !important;
+    }
+    .top-text{
+        font-size: 20px !important;
+     }
+     .bottom-text{
+        font-size: small !important;
+    }
+    .button-container{
+      margin-top: 15% !important;
+      width: 90% !important;
+      padding: 20px !important;
+      border-radius: 30px !important;
+      margin-bottom: 5%;
+      font-size: large !important;
+    }
+    .social-icon{
+       margin-left: 90% !important;
+      padding: 0% !important;
+    }
+    .social-icon2{
+        margin-left: 90% !important; 
+        margin-top: 685px !important;
+        padding: 0% !important;
+    }
+    ._social_medial{
+    margin-top: 20% !important;
+    color: #9e6724 !important;
+      }
+}
+
+
+  /*================================================================== SMALL SCREEN ========================================= */
+  @media only screen and (max-width: 575px) {
+    #myInnerVideo {
+        width:  100%;
+        height: 80vh !important;
+        position: absolute !important;
+      }
+    #myVideo {
+        opacity: 0.2 !important;
+      }
+    .content {
+        position: static !important;
+        margin-top: 10%;
+        height: 82vh !important;
+        width: 100% !important;
+      }
+    ._top_text{
+        margin-top: 3% !important;
+        font-size: x-small;
+        font-weight: 700;
+        color: #9e6724;
+    }
+    .carousel-item{
+        height: 78vh !important;
+    }
+    .inner-container{
+        height: 80vh !important;  
+    }
+    .logo img{
+        margin: 15% 0px 0px 40%;
+        height: 100px;
+        width: 25%;
+    }
+    .detail-text{
+
+        padding: 10% 0px 0px 0px !important;
+        height: 200px;
+        margin-bottom: 30% !important;
+        width: 100%;
+        text-align: center !important;
+ 
+      }
+      ._text_inner{
+        text-align: center;
+        margin-top: 65% !important;
+        font-size: 50px !important;
+    }
+    .top-text{
+        font-size: 20px !important;
+     }
+     .bottom-text{
+        font-size: x-small !important;
+    }
+    .button-container{
+      margin-top: 30% !important;
+      width: 90% !important;
+      padding: 15px !important;
+      border-radius: 30px !important;
+      font-size: small !important;
+    }
+    .social-icon{
+       margin-left: 85% !important;
+       display: none !important;
+    }
+    .social-icon2{
+        margin-left: 85% !important; 
+        margin-top: 475px !important;
+        display: none !important;
+    }
+    ._social_medial{
+    margin-top: 40% !important;
+    color: #9e6724 !important;
+      }
+  }
+
+
+
+
+
+  #myInnerVideo {
+    width:  100%;
+    height: 420px;
+    position: absolute !important;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    background: rgba(193, 22, 22, 0.5);
+  
+    height: 450px;
+    width: 60%;
+    padding: 10px;
+    border: 4px solid #000;
+  }
+
+  .detail-text{
+    margin-top: 12%;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    /* background-color: #c72020; */
+  }
+.top-text{
+   font-size: 25px;
+   /* padding-left: 36%; */
+   padding-top: 10px;
+   font-family: cursive;
+   color: #fff;
+}
+.bottom-text{
+    font-size: medium;
+    /* padding-left: 42%; */
+   
+   color: blanchedalmond;
+}
+.button-container{
+    margin-top: 5%;
+    padding: 10px;
+    height: fit-content;
+    width: 50%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: flex-end;
+   margin-left: 94%;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: contain;
+    margin-top: -2% !important;
+    padding: 5px;
+}
+.social-icon2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 360px;
+   margin-left: 94% !important;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: contain;
+    padding: 5px;
+}
+  /* Social Medial Styling */
+  ._social_medial{
+    /* position: absolute; */
+    display: flex;
+    width: 100%;
+margin-top: 12%;
+    height: 100px;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    /* background-color: #676262; */
+  }
