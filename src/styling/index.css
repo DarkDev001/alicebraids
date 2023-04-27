@@ -31,7 +31,7 @@
     height: 420px;
     width: 100% !important;
     margin: auto;
-    border: 3px solid #000;
+    border: 3px solid rgb(142, 49, 49);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,9 @@
     margin-top: 15% !important;
     text-align: center;
     font-size: 70px !important;
-    color: aliceblue;
+    color: rgb(224, 65, 65);
+    font-style: oblique !important;
+    font-weight: 900;
 }
 ._text_inner:hover{
     color: antiquewhite;
@@ -169,6 +171,46 @@
     margin-top: 40% !important;
     color: #9e6724 !important;
       }
+
+      
+  .modal{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    
+  }
+  .modal-body{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #db9797;
+    height: 100vh !important;
+    position: absolute !important;
+    width: 100%;
+    padding: 0px 30px !important;
+    text-align: justify !important;
+    font-size: medium !important;
+
+  }
+  .modal-content{
+    position: absolute !important;
+    background-position: center !important;
+  background-size: contain !important;
+    background-repeat: no-repeat;
+    border: 2px solid red !important;
+  }
+  #myInnerVideo2{
+    opacity: 0.2 !important;
+    right: 0;
+    bottom: 0;
+  }
+  
+  
+  .innerTitle{
+    text-align: center !important;
+    margin:  10% 0px !important;
+  }
+ .modal-header{
+  margin: 5% auto !important;
+ }
+
+
   }
 
 
@@ -246,6 +288,8 @@
     margin-top: 20% !important;
     color: #9e6724 !important;
       }
+
+    
 }
 
 
@@ -323,8 +367,41 @@
     margin-top: 40% !important;
     color: #9e6724 !important;
       }
-  }
+    
+      .modal{
+        background-color: rgba(0, 0, 0, 0.5) !important;
+      }
+      .modal-content{
+        position: absolute !important;
+        background-position: center !important;
+      background-size: contain !important;
+        background-repeat: no-repeat;
+        border: 2px solid red !important;
+    
+      }
+      .modal-header{
+        margin: 5% auto !important;
+      }
+      .modal-title{
+        font-size: medium !important;
+      }
+      .modal-body{
+      padding: 20px !important;
+    
+      }
+      #myInnerVideo2{
+        opacity: 0.2 !important;
+        right: 0;
+        bottom: 0;
+      }
+      
+      
+      .innerTitle{
+        text-align: center !important;
+        margin:  3% 0px !important;
+      }
 
+  }
 
 
 
@@ -345,7 +422,7 @@
     height: 450px;
     width: 60%;
     padding: 10px;
-    border: 4px solid #000;
+    border: 3px solid rgb(142, 49, 49);
   }
 
   .detail-text{
@@ -415,47 +492,39 @@ margin-top: 12%;
   }
 
   /* ===================================================== MODAL STYLING =================================================== */
+ 
+  
   .modal{
-    background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: contain !important;
-    /* opacity: 1 !important;  */
     background-color: rgba(0, 0, 0, 0.5) !important;
-    height: 700px !important;
     
+  }
+  .modal-body{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #db9797;
+    height: 100vh !important;
+    position: absolute !important;
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    font-size: medium !important;
+
   }
   .modal-content{
     position: absolute !important;
-    height: fit-content !important;
-    width: 100% !important;
-    background-position: center;
-    background-size: cover;
+    background-position: center !important;
+  background-size: contain !important;
     background-repeat: no-repeat;
-    /* opacity: 0.5 !important;  */
-   
-    border: 5px solid red !important;
+    border: 2px solid red !important;
   }
-  .myInnerVideo2{
+  #myInnerVideo2{
     opacity: 0.2 !important;
     right: 0;
     bottom: 0;
-    width:  100% !important;
-    height: fit-content !important;
-    ;
   }
-  .modelInnerContent{
-    /* opacity: 0.5 !important; */
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    /* background-color: #000 !important; */
-    color: #fff;
-    height: 700px !important;
-    position: absolute !important;
-    height: fit-content !important;
-    width: 100% !important;
-    padding: 20px !important;
-    text-align: start !important;
-    font-size: 20px !important;
-    /* bottom: 0;
-    top: 0; */
-
+  
+  
+  .innerTitle{
+    text-align: center;
+    margin:  3% 0px;
   }
+ 
