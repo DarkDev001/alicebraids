@@ -22,7 +22,6 @@
     margin: 5% 0px 0px 45%;
     height: 70px;
     width: 10%;
-    background-color: red;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -55,6 +54,9 @@
     color: rgb(224, 65, 65);
     font-style: oblique !important;
     font-weight: 900;
+}
+._text_inner a{
+  color: rgb(224, 65, 65) !important;
 }
 ._text_inner:hover{
     color: antiquewhite;
@@ -159,6 +161,9 @@
       border-radius: 30px !important;
       font-size: large !important;
       margin-bottom: 5% !important;
+    }
+    .button-container a{
+      color: #000 !important;
     }
     .social-icon{
        margin-left: 85% !important;

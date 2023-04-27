@@ -1,0 +1,24 @@
+/* General Styling */
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    user-select: none;
+    user-zoom: fixed;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+.nav-item{
+    align-items: baseline;
+    border: 1px solid black;
+    padding: 0px 5px;
+   color: white !important;
+   background-color: black;
+   font-size: small;
+}
+.nav-link{
+    color: white !important;
+}
