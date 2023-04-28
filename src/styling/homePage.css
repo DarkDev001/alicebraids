@@ -7,18 +7,159 @@
     user-select: none;
     user-zoom: fixed;
 }
-
-.navbar-brand{
-    width: 10%;
+.container-fluid{
+    align-items: baseline !important;
+    justify-content: space-around !important;
+    display: flex;
 }
-.nav-item{
+.navbar-brand{
+    width: 8%;
+}
+#links{
     align-items: baseline;
     border: 1px solid black;
     padding: 0px 5px;
    color: white !important;
    background-color: black;
-   font-size: small;
+   font-size: x-small !important;
+   height: fit-content;
 }
 .nav-link{
     color: white !important;
 }
+
+._social_medial{
+    display: flex;
+    justify-content: center;
+    color: #a31515;
+}
+
+#icon .nav-link{
+    font-size: x-small !important;
+    color: #a31515 !important;
+}
+
+  /*================================================================== MEDIUM SCREEN ========================================= */
+  @media only screen and (max-width: 991px) {
+    .navbar-nav{
+        display: none !important;
+    }
+    .offcanvas{
+        background-color: #761c1c !important;
+        width: 80% !important;
+        padding: 0% 10px;
+    }
+    .offcanvas-header, .offcanvas-body{
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 700;
+       
+      
+    }
+    .list{
+        margin: 10% 0px;
+        font-weight: 600;
+        justify-content: space-between;
+    }
+    .list a{
+        color: #fff;
+    }
+    .navbar-brand{
+        width: 90%;
+        border: none !important;
+        border-collapse: collapse !important;
+    }
+    .homeLog{
+        width: 100%;
+        height: fit-content;
+        padding: 3% 5%;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+        font-family: cursive !important;
+        
+    }
+    .homeBooking{
+        height: fit-content;
+        width: 100%;
+        margin-top: 3%;
+        color: #a31515;
+        display: flex;
+        
+        align-items: center !important;
+    }
+    .text-inner a{
+        color: #a31515;
+        font-size: 25px;
+        font-weight: 700;
+    }
+  }
+
+  /*================================================================== SMALL SCREEN ========================================= */
+  @media only screen and (max-width: 575px) {
+    .navbar-nav{
+        display: none !important;
+    }
+    .offcanvas{
+        background-color: #761c1c !important;
+        width: 80% !important;
+    }
+    .offcanvas-header, .offcanvas-body{
+        color: whitesmoke;
+        font-size: 12px;
+        font-weight: 700;
+      
+    }
+    .list{
+        margin: 20% 0px;
+        font-weight: 600;
+        justify-content: space-between;
+    }
+    .list a{
+        color: #fff;
+    }
+    /* =========================== DROP DOWN =============== */
+    .dropdown-menu{
+        height: fit-content;
+        width: 100%;
+        background-color: #761c1c !important;
+        border: none !important;
+       
+    }
+    .dropdown-item{
+        color: #fff;
+        margin: 10% 0PX;
+    }
+    /* ============================================== */
+    .navbar-brand{
+        width: 80%;
+        border: none !important;
+        border-collapse: collapse !important;
+    }
+    .homeLog{
+        width: 100%;
+        height: fit-content;
+        padding: 3% 5%;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+        font-size: medium;
+        font-family: cursive !important;
+        
+    }
+    .homeBooking{
+        height: fit-content;
+        width: 100%;
+        margin-top: 3%;
+        color: #a31515;
+        display: flex;
+        
+        align-items: center !important;
+    }
+    .text-inner a{
+        color: #a31515;
+        font-size: 15px;
+        font-weight: 700;
+    }
+  }

@@ -49,36 +49,3 @@
   xl: 1200px,
   xxl: 1400px
 );
-
-<div class="modal-content">
-  <video autoplay muted loop id="myInnerVideo2">
-    <source src="./src/video/hair.mp4" type="video/mp4">
-  </video>
-  <div class="modelInnerContent">
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem libero debitis labore consectetur exercitationem et officia iste iusto ducimus accusamus quibusdam veritatis atque, veniam excepturi voluptas nostrum nam natus voluptate!
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, perferendis necessitatibus minus eos atque facere nesciunt id pariatur consequuntur perspiciatis nobis aperiam autem culpa voluptates ipsa voluptas iusto, sed aliquam?
-  Similique omnis nulla at quae iure suscipit, nam sunt labore doloribus, nihil alias commodi nobis harum veritatis eligendi aspernatur reprehenderit, asperiores quo quisquam numquam? Dolorum provident facilis ipsa assumenda aut.
-  Mollitia distinctio voluptates exercitationem minus omnis adipisci nisi et est rem. Esse, neque dolor sequi porro ducimus, voluptate qui deleniti eum in eius sed, vel beatae illo libero accusantium eveniet?
-  Ducimus quas, placeat voluptatibus inventore dolor expedita itaque voluptatum dolorem! Nihil rem nesciunt error labore debitis ut eius alias quia nam consequuntur, cum beatae dolorum, sunt iure illo reprehenderit odio.
-  Tempore nemo, non ratione, odit architecto aliquid quo animi, assumenda quidem maiores maxime et sint libero qui incidunt. Magni dignissimos ipsum molestias, in deserunt aperiam amet. Esse, odio. Laudantium, magni!
-  Minima enim corrupti ipsa eaque ex et! Esse possimus nemo, necessitatibus culpa praesentium cumque doloremque laborum earum ad similique, dignissimos dicta obcaecati consequatur assumenda enim modi, quas odit impedit natus?
-  Saepe debitis omnis pariatur odit fugiat laboriosam at, non, iste ea dolorum laborum. Facilis sunt voluptas quam, voluptatem quidem, officia eum soluta quos alias quia quibusdam nisi iusto, molestiae incidunt?
-  At explicabo deleniti quibusdam reiciendis itaque id accusamus consequatur vel. Incidunt, aliquam voluptatibus, hic dignissimos expedita quas quam neque in ea, quibusdam fuga ducimus quis quasi repudiandae vero magni exercitationem.
-  Ab non, saepe obcaecati fugiat odio eius rerum assumenda velit nobis impedit iste, quisquam enim! Doloribus, ullam! Ut neque ex illo ullam quia? Ex reiciendis consequatur eius, libero ducimus nihil.
-  Magni maiores dolor odio perferendis ea delectus quod consectetur perspiciatis, veritatis nisi distinctio animi dolore, nostrum enim nesciunt tempore iusto? Ea, consequuntur nisi sequi ullam explicabo perferendis. Culpa, laboriosam error?
-  Nesciunt sed est, obcaecati sapiente ducimus cum culpa, officia perspiciatis cumque ut praesentium voluptatum, exercitationem deserunt doloribus sunt quis! Repudiandae error minima nobis molestias mollitia enim maxime voluptates 
-  </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    
-  </div>
-</div>

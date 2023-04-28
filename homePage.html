@@ -13,32 +13,310 @@
   <body>
 
     <!-- ========================================= NAVBAR ================================================ -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid mx-auto">
         <a class="navbar-brand" href="#"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <!-- ============== OFFCANVAS NAVBAR ================= -->
+          <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">HOME</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="innerList">
+                <div class="list mt-1">
+                  <a href="#">BOOK ALICE</a>
+                </div>
+                <div class="list">
+                  <a href="#" class=" d-flex btn-group dropend" style="justify-content: space-between;"type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">CORNROWS
+                  <i class="bi bi-chevron-down"></i></a>
+                  <!-- ====================== DROP DOWN ================ -->
+                  <div class="dropdown">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">SMALL PONYTAIL</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">MEDIUM PONYTAIL</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">THE SNEAKY PONNY</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">HALF UP HALF DOWN</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">STITCH PONYTAIL</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">STITCH PONY & BASE</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">STITCH LEMONADE</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">STITCH & BRAIDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">4 STITCH BRAIDS CRISSCROSS</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">4 STITCH BRAIDS W/ BUTTERFLY ENDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">6 STITCH BRAIDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">6 STITCH INTO BUN</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">6 STITCH W/ CURLY ENDS</a>
+                      </li>
+                    
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">6 STITCH W/ BUTTERFLY ENDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">8 STITCH W/ BUTTERFLY ENDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">10 STITCH BRAIDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">DESIGNER STITCH</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">BOUGEE STITCH</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">STITCH X WEAVE</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">FULANI</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">TRIBAL W/ SWAG</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">BOO BRAIDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">ZAGADAT BRAIDS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">SADE ADU</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">SMALL 3-LAYERED</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" type="button">SNAKE</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- ==================================================== -->
+                </div>
+                <div class="list">
+                  <a href="#" class=" d-flex btn-group dropend" style="justify-content: space-between;"type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">BRAIDS
+                    <i class="bi bi-chevron-down"></i></a>
+                    <!-- ====================== DROP DOWN ================ -->
+                    <div class="dropdown">
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">MEDUIM COILLERY</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">LIMITED EXTRA SMALL KNOTLESS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SMALL BOX PART KNOTLESS (WAIST-LENGHT)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SMALL BOX PART KNOTLESS (BUTT-LENGHT)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">MEDIUM KNOTLESS (SYNTHETIC)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">MEDIUM KNOTLESS (OMBRE WAIST)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">MEDIUM BOX PART KNOTLESS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">LARGE KNOTLESS (WAIST-LENGHT)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">LARGE KNOTLESS (BUTT-LENGHT)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">XTRA- LARGE KNOTLESS W/ CURLY ENDS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">JUMBO KNOTLESS (BUTT-LENGHT)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">BOB BOHEMIAN KNOTLESS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">S-PART LARGE KNOTLESS</a>
+                        </li>
+                      
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SMALL BOHEMIAN KNOTLESS (SYNTHETIC)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">MEDIUM BOHEMIAN KNOTLESS (SYNTHETIC)</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button"></a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">DESIGNER STITCH</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">BOUGEE STITCH</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">STITCH X WEAVE</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">FULANI</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">TRIBAL W/ SWAG</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">BOO BRAIDS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">ZAGADAT BRAIDS</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SADE ADU</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SMALL 3-LAYERED</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item" type="button">SNAKE</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- ==================================================== -->
+                </div>
+                <div class="list">
+                  <a href="#" class=" d-flex" style="justify-content: space-between;">LOCKS
+                    <i class="bi bi-chevron-down"></i></a>
+                
+                </div>
+                <div class="list">
+                  <a href="#" class=" d-flex" style="justify-content: space-between;">KID (AGE 6-10)
+                    <i class="bi bi-chevron-down"></i></a>
+                </div>
+                <div class="list">
+                  <a href="#">VIP</a>
+                </div>
+                <div class="list">
+                  <a href="#">CONSULTANT</a>
+                </div>
+                <div class="list">
+                  <a href="#" class=" d-flex" style="justify-content: space-between;">IN-STUDIO WORKSHOP
+                    <i class="bi bi-chevron-down"></i></a>
+                </div>
+                <div class="list">
+                  <a href="#">GALLERY</a>
+                </div>
+                <div class="list">
+                  <a href="#">CONTACT ALICE</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+           <!-- ================================================== -->
+
+
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item d-flex mx-2" style="font-family: fantasy;">
-              <a class="nav-link active" aria-current="page" href="#">Log in</a>
+            <li class="nav-item  d-flex mx-2 px-3" id="links" style="font-family: fantasy;">
               <i class="bi bi-facebook"></i>
+              <a class="nav-link active" aria-current="page" href="#" >Log in</a>
+              
             </li>
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-2 px-2" id="links">
               <a class="nav-link" href="#">BOOKING</a>
             </li>
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-2 px-2" id="links">
               <a class="nav-link" href="#">CONTACT ALICE</a>
             </li>
+            
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" id="icon">
+              <a class="nav-link" href="#">
+                PLEASE READ BEFORE BOOKING
+              </a>
+              <div class="_social_medial d-flex">
+                <!-- Instagram icon -->
+                <i class="bi bi-instagram mx-2"></i>
+      
+                <!-- Facebook icon -->
+                <i class="bi bi-facebook mx-2"></i>
+              </div>
+            </li>
+
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item mx-2 px-5" id="links">
+                <a class="nav-link" href="#">GALLERY</a>
+              </li>
+              <li class="nav-item mx-2 px-5" id="links">
+                <a class="nav-link" href="#">ABOUT ALICE</a>
+              </li>
+          
+  
+            </ul>
           </form>
         </div>
       </div>
     </nav>
+
+    <!-- ======================================== SMALL VIEW LOG IN =================== -->
+
+    <div class="row mx-0">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="homeLog d-lg-none">
+          <i class="bi bi-person mx-2" style="color: #fff;"></i>
+          <a class="nav-link active" aria-current="page" href="#" >Log In</a>
+              
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="homeBooking d-lg-none">
+          <div class="icon-inner">
+            <!-- Instagram icon -->
+            <i class="bi bi-instagram"></i> <br>
+  
+            <!-- Youtube icon -->
+            <i class="bi bi-youtube"></i>
+          </div>
+          <div class="text-inner mx-auto">
+            <a href="#">
+              PLEASE READ BEFORE BOOKING
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
 
 
