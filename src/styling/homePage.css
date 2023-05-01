@@ -44,6 +44,21 @@
     .navbar-nav{
         display: none !important;
     }
+    .cancel{
+        height: 50px;
+        width: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .cancel img{
+        height: 50px;
+        width: 50px;
+    }
+    .nav-sm-view-bar{
+        width: 100% !important;
+        display: flex !important;
+    }
     .offcanvas{
         background-color: #761c1c !important;
         width: 80% !important;
@@ -65,15 +80,19 @@
         color: #fff;
     }
     .navbar-brand{
-        width: 90%;
+        width: 100% !important;
         border: none !important;
         border-collapse: collapse !important;
     }
-    .homeLog{
+    #home{
         width: 100%;
         height: fit-content;
-        padding: 3% 5%;
         background-color: black;
+    }
+    .homeLog{
+
+        padding: 3% 5%;
+
         display: flex;
         justify-content: end;
         font-size: 30px;
@@ -94,12 +113,83 @@
         font-size: 25px;
         font-weight: 700;
     }
+    #categorie{
+        display: none !important;
+       }
+       .logo img{
+        margin-bottom: 15% !important;
+    }
+    
+    ._text_inner{
+        margin-top: 70% !important;
+        text-align: center;
+        font-size: 15px !important;
+        padding: 25px;
+        
+    }
+    .card{
+        width: 100% !important;
+        margin-top: 10% !important;
+     }
+     .card img{
+         height: 200px !important;
+         width: 75% !important;
+         margin: auto;
+     }
+     .card-body{
+         border-bottom: 2px solid #761c1c;
+         width: 80%;
+         margin: 0% 0px 10% 0px !important;
+      
+     }
+     .card-title{
+         color: #761c1c !important;
+         font-style: oblique !important;
+         font-size: 20px !important;
+         font-weight: 700;
+     }
+     .card-link{
+         font-size: 13px !important;
+     }
+     .card-body-bottom{
+         margin-bottom: 10%;
+     }
+     .card-text{
+         margin-bottom: 15% !important;
+     }
+     .btn{
+         width: 80%;
+         font-weight: 700 !important;
+     }
+     .btn:hover{
+         width: 85%;
+         height: 40px;
+         background-color: #761c1c !important;
+     }
+     .nav{
+         width: 100% !important;
+         padding-top: 0% !important;
+         
+     }
+     .nav .nav-link{
+         font-size: 20px !important;
+     
+     }
+     #braidsTypes{
+         padding: 5% 0px !important;
+         margin-top: -18%;
+     }
+       
   }
 
   /*================================================================== SMALL SCREEN ========================================= */
   @media only screen and (max-width: 575px) {
     .navbar-nav{
         display: none !important;
+    }
+    .nav-sm-view-bar{
+        width: 100% !important;
+        display: flex !important;
     }
     .offcanvas{
         background-color: #761c1c !important;
@@ -118,7 +208,12 @@
     }
     .list a{
         color: #fff;
+
     }
+    #categorie{
+       display: none !important;
+      }
+      
     /* =========================== DROP DOWN =============== */
     .dropdown-menu{
         height: fit-content;
@@ -129,19 +224,25 @@
     }
     .dropdown-item{
         color: #fff;
-        margin: 10% 0PX;
+        margin: 10% 0px;
+        font-size: 12px !important;
+        padding: 0px 5px !important;
     }
     /* ============================================== */
     .navbar-brand{
-        width: 80%;
+        /* width: 100% !important; */
         border: none !important;
         border-collapse: collapse !important;
     }
-    .homeLog{
+    #home{
         width: 100%;
         height: fit-content;
-        padding: 3% 5%;
         background-color: black;
+    }
+    .homeLog{
+
+        padding: 3% 5%;
+        
         display: flex;
         justify-content: end;
         font-size: medium;
@@ -162,4 +263,228 @@
         font-size: 15px;
         font-weight: 700;
     }
+    .logo img{
+        margin-bottom: 25% !important;
+    }
+    
+    ._text_inner{
+        margin-top: 70% !important;
+        text-align: center;
+        font-size: 12px !important;
+        padding: 25px;
+        
+    }
+    .card{
+       width: 100% !important;
+       margin-top: 10% !important;
+    }
+    .card img{
+        height: 250px !important;
+        width: 65% !important;
+        margin: auto;
+    }
+    .card-body{
+        border-bottom: 2px solid #761c1c;
+        width: 80%;
+        margin: 0% 0px 10% 0px !important;
+     
+    }
+    .card-title{
+        color: #761c1c !important;
+        font-style: oblique !important;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .card-link{
+        font-size: 13px !important;
+    }
+    .card-body-bottom{
+        margin-bottom: 10%;
+    }
+    .card-text{
+        margin-bottom: 15% !important;
+    }
+    .btn{
+        width: 80%;
+        font-weight: 700 !important;
+    }
+    .btn:hover{
+        width: 85%;
+        height: 40px;
+        background-color: #761c1c !important;
+    }
+    .nav{
+        width: 100% !important;
+        padding-top: 0% !important;
+        
+    }
+    .nav .nav-link{
+        font-size: 12px !important;
+    
+    }
+    #braidsTypes{
+        padding: 0% 0px !important;
+        margin-top: -18%;
+    }
+    
   }
+
+  /* =================== BIG SCREEN CATEGORIES ==========================*/
+  #categorie{
+    height: fit-content;
+    width: 100%;
+    background-color: #761c1c;
+  }
+  .lg-categories{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-small;
+    padding:  10px 0px;
+    font-weight: 700;
+
+  }
+  .lg-categories a{
+    color: #fff;
+  }
+
+  .lg-categories a:hover{
+    color: #a31515;
+  }
+
+.dropdown-menu{
+    background-color: #761c1c !important;
+    width: fit-content;
+    font-size: x-small !important;
+  }
+
+  /* ================= LANDING PAGE VIDEO =================== */
+  #landingPage{
+    height: 95vh;
+    width: 100%;
+    /* background-color: #761c1c; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+
+  #myVideo {
+    opacity: 0.5;
+    position: relative !important;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    width:  100% ;
+    height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo img{
+    margin-bottom: 5%;
+}
+  .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+}
+.overlay a{
+    color: #a31515;
+}
+.overlay a:hover{
+    color: #fff;
+}
+._text_inner{
+    margin-top: 25%;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(224, 65, 65);
+    font-style: oblique !important;
+    font-weight: 700;
+}
+
+/* ===========================BRAIDS SECTION STYLE ====================== */
+#braidsTypes{
+
+    background-color: #fff;
+    height: fit-content;
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0px;
+}
+.nav{
+    padding-top: 2%;
+    justify-content: center;
+    height: 50px;
+    /* background-color: #761c1c; */
+    border-bottom: none !important;
+    
+}
+.nav-link:hover{
+    border-bottom: 2px solid #761c1c !important;
+}
+.nav .nav-link{
+    color: #a31515 !important;
+    font-style: oblique !important;
+
+}
+.tab-content{
+    padding-top: 5%;
+}
+.card{
+    border: 1px solid #761c1c !important;
+   margin-bottom: 15%;
+}
+.card img{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+.card-img-top{
+    border: 5px solid #a31515;
+    margin-top: 10% !important;
+    border-radius: 100% !important;
+    width: 80%;
+    height: 200px;
+    background-color: #761c1c;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-body{
+    border-bottom: 2px solid #761c1c;
+    width: 80%;
+    margin: 5% 0px 20% 0px;
+ 
+}
+.card-title{
+    color: #761c1c !important;
+    font-style: oblique !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-link{
+    color: #761c1c;
+    text-decoration: underline !important;
+}
+.card-body-bottom{
+    margin-bottom: 10%;
+}
+.card-text{
+    margin-bottom: 25%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn{
+    width: 80%;
+    font-weight: 700;
+}
+.btn:hover{
+    width: 85%;
+    height: 40px;
+    background-color: #761c1c !important;
+}
