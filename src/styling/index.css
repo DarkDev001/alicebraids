@@ -16,6 +16,7 @@
     height: 450px !important;
     width: 100% !important;
     background-color: #000;
+    
   
 }
 .logo img{
@@ -120,7 +121,7 @@
       }
     ._top_text{
         margin-top: 3% !important;
-        font-size: x-small;
+        font-size: 20px;
         font-weight: 700;
         color: #9e6724;
     }
@@ -155,22 +156,23 @@
         font-size: medium  !important;
     }
     .button-container{
-      margin-top: 20% !important;
+      margin-top: 10% !important;
       width: 90% !important;
       padding: 15px !important;
       border-radius: 30px !important;
       font-size: large !important;
       margin-bottom: 5% !important;
+      /* position: absolute !important; */
     }
     .button-container a{
       color: #000 !important;
     }
     .social-icon{
-       margin-left: 85% !important;
+       margin-left: 94% !important;
     }
     .social-icon2{
         margin-left: 85% !important; 
-        margin-top: 778px !important;
+        margin-top: 40%  !important;
     }
     ._social_medial{
     margin-top: 40% !important;
@@ -318,7 +320,7 @@
         margin-top: 5% !important;
         
     
-        font-size: x-small;
+        font-size: small;
         font-weight: 700;
         color: #9e6724;
     }
@@ -353,7 +355,7 @@
         font-size: x-small !important;
     }
     .button-container{
-      margin-top: 35% !important;
+      margin-top: 15% !important;
       width: 90% !important;
       padding: 15px !important;
       border-radius: 30px !important;
@@ -447,24 +449,34 @@
    color: blanchedalmond;
 }
 .button-container{
-    margin-top: 12%;
-    padding: 10px;
+    margin-top: 5%;
+    padding: 15px;
     height: fit-content;
     width: 50%;
     color: #000;
     background-color: #fff;
     border-radius: 20px;
+    
+}
+.button-container a{
+  color: #000;
+  font-size: 18px;
+}
+.button-container:hover{
+  border: 2px solid #fff;
+  background-color: #c72020;
+  color: #fff;
 }
 .social-icon{
     display: flex;
     justify-content: flex-end;
-   margin-left: 94%;
+   margin-left: 93%;
     color: #fff;
     height: 50px;
     width: 50px;
     background-position: center;
     background-size: contain;
-    margin-top: -2% !important;
+    margin-top: 5% !important;
     padding: 5px;
 }
 .social-icon2{
