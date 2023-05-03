@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="./src/styling/homePage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   </head>
@@ -1248,12 +1252,215 @@ APPOINTMENTS ARE EXCLUSIVELY WITH LEAD STYLIST, ARINOLA TITILAYO (Alice).
       </div>
     </div>
 
+    <!-- ================================================ SLIDER PAGE ============================= -->
+    <video autoplay muted loop id="myVideo">
+      <source src="./src/video/WhatsApp Video1.mp4" type="video/mp4">
+    </video>
+
+    <div id="container" >
+      <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+          <div id="slider">
+            <div class="slide"><span><video  autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video><span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+            <div class="slide"><span><video autoplay muted loop src="./src/video/WhatsApp Video1.mp4"></video></span></div>
+        </div>
+        <span onclick="slideLeft()" class="btn"></span>
+      </div>
+    </div>
+
+    <!-- ======================================== OWL-CAROUSEL SLIDER ======================= -->
+        <div class="slider owl-carousel">
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./src/img/b1.webp" alt="."></div>
+              <div class="content text-center">
+                <div class="title">Briana Tozour 1</div>
+                <div class="sub-title">Graphic Designer</div>
+                <div class="btn-pro text-center">
+                <button>ADD CART</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
+<!-- ===================================== BOOKING SECTION ======================= -->
+
+<div class="row mx-0" id="book">
+  <div class="col-12">
+    <div class="book-text mx-auto">
+      <h5 class="modal-header" >PLEASE READ BEFORE BOOKING</h5>
+      <p>.  Please be on time for your appointment. Please do not ring the doorbell. When you arrive, please call the number available in your confirmation. <br><br>
+  
+        .  Alice is only available for braids and locks.<br><br>
+  
+        .  A $30 deposit is required when booking (an increased deposit on selected premium styles). All deposits go towards the final cost of your style. A processing fee may be added at checkout. <br><br>
+  
+        .  Final payments are paid in cash or through Zelle.<br> <br>
+  
+        .  Appointments are available 70 days in advance. <br><br>
+  
+        .  Clients must be 10 years and older to book.<br><br>
+  
+        .  Guests / children are not allowed at the appointment.<br><br>
+  
+        .  Braiding hair is provided for all services, except for human hair extensions and the curly hair for the S-Part Large Knotless. Please send a text 24 hours before your appointment to confirm if your required color is in stock. Ruwa Hair (click for photo) is also available.<br><br>
+  
+        .  Contact information for Bora Braids is sent electronically after booking online.<br><br>
+  
+        .  Please notify Bora at least 48 hours before your scheduled appointment  to cancel.<br><br>
+  
+        .  Same day style change is PROHIBITED.<br><br>
+  
+        .  Deposits are non-refundable unless I have to reschedule or cancel (also non-transferable).
+      </p>
+      
+      <div class="innerTitle">
+        LAST MINUTE APPOINTMENTS:
+      </div>
+      <p>
+        . Last minute and VIP Appointment requests are permitted. An additional charge of $100 is required. Please visit borabraids.com/vip to book. 
+      </p>
+      <div class="innerTitle">
+        LATE POLICY:
+      </div>
+      <p>
+        .  I allow a 10-minutes grace period without a late fee. At 11-15 minutes = $20 late fee (if time permits) or cancelled. 20 minutes past = appointment is cancelled. <br><br>
+  
+        .  No Call No Show = Cancelled (DEPOSIT IS AUTOMATICALLY INVALID WITH 50% OF THE SERVICE COST BEING CHARGED.) <br><br>
+  
+        .  Deposits are non-refundable unless I have to reschedule or cancel (also non-transferable). <br><br>
+  
+        .  No major style changes on the day of appointment. <br><br>
+  
+        .  Bookings are available 70 days in advance. 
+  
+  
+      </p>
+      <div class="innerTitle">
+        HAIR REQUIREMENTS:  
+      </div>
+      <p>
+        .  Hair must be cleaned and product free (no more than 3 days).<br><br>
+  
+        .  Hair must be completely detangled and blow dried from roots to tips for all styles (no exceptions). Click here for visual representation. <br><br>
+  
+        .  Lack of preparation will result in your appointment being cancelled and deposit forfeited or a fee. <br><br>
+  
+        .  Hair must be at least 3 inches all over.<br><br>
+  
+        .  If you have any scalp conditions; bald spots, thin edges, hair breakages, please inform me.<br><br>
+  
+        .  Please be patient, hair styles may take longer on different clients' based on hair texture.<br><br>
+  
+        .  Click here for hair length chart. <br><br>
+      </p>
+    </div>
+  </div>
+</div>
 
 
+<!-- <div class="bottom-video">
+  <video autoplay muted loop id="myVideo">
+    <source src="./src/video/WhatsApp Video1.mp4" type="video/mp4">
+  </video>
+</div> -->
 
+<!-- =================================================== FOOTER ============================= -->
+<footer>
+  <div class="row mx-0">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="_social_medial d-flex g-3">
+        <!-- Instagram icon -->
+        <i class="bi bi-instagram mx-2"></i>
 
+        <!-- Facebook icon -->
+        <i class="bi bi-facebook mx-2"></i>
+      </div>
+      <a href="/index.html"><div class="year">  
+        <i>© 2023 by ALICEBRAIDSS</i>      
+      </div>
+      <b>
+        ALICE LUXURY HAIR LLC
+      </b><br>
+      <small>Newark, New Jersey</small></a>
+    </div>
+  </div>
+</footer>
 
 
 
@@ -1261,6 +1468,9 @@ APPOINTMENTS ARE EXCLUSIVELY WITH LEAD STYLIST, ARINOLA TITILAYO (Alice).
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- SLIDER JS -->
+    <script src="./src/js/slider.js"></script>
 
     <script>
       // Get the video
@@ -1279,6 +1489,14 @@ APPOINTMENTS ARE EXCLUSIVELY WITH LEAD STYLIST, ARINOLA TITILAYO (Alice).
           btn.innerHTML = "Play";
         }
       }
+      </script>
+      <script>
+        $(".slider").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2000, //2000ms = 2s;
+          autoplayHoverPause: true,
+        });
       </script>
   </body>
 </html>
