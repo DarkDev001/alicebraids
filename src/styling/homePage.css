@@ -114,6 +114,7 @@
         color: #a31515;
         font-size: 25px;
         font-weight: 700;
+      
     }
     #categorie{
         display: none !important;
@@ -218,6 +219,45 @@
         background-size: contain !important;
         background-repeat: no-repeat;
     }
+
+     /* <!-- ==================================== ABOUT ALICE MODAL STYLE LARGE SCREEN ============================ --> */
+ .modal .modal-dialog .card{
+  height: fit-content;
+  width: fit-content;
+  overflow-y: hidden;
+}
+.modal .modal-dialog .card .card-img{
+  height: 100vh !important;
+  width: 100% !important;
+  opacity: 0.2;
+  
+  
+}
+
+.modal .modal-dialog .card .card-img-overlay .card{
+  width: 100% !important;
+  height: 60vh !important;
+  margin: 25% 0px !important;
+  opacity: 0.5;
+  border: 5px solid #a31515 !important;
+  
+}
+.modal .modal-dialog .card .card-img-overlay .card img{
+  height: 20vh !important;
+  width: 98%;
+  border: 5px solid #a31515;
+  margin: 5% 2%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.modal .modal-dialog .card .card-img-overlay .card .card-body{
+  height: fit-content !important;
+  width: fit-content !important;
+  padding: 20% 20px !important;
+
+  margin-left: -10% !important;
+}
   }
 
   /*================================================================== SMALL SCREEN ========================================= */
@@ -382,6 +422,7 @@
       #book{
         margin-top: 40% !important;
         background-color: #761c1c !important;
+        scroll-behavior: smooth;
       }
       .book-text{
         width: 100% !important;
@@ -423,6 +464,49 @@
     background-size: contain !important;
     background-repeat: no-repeat;
 }
+
+
+     /* <!-- ==================================== ABOUT ALICE MODAL STYLE LARGE SCREEN ============================ --> */
+     .modal .modal-dialog .card{
+      height: fit-content;
+      width: fit-content;
+      /* overflow-y: hidden; */
+    }
+    .modal .modal-dialog .card .card-img{
+      height: 100vh !important;
+      width: 100% !important;
+      opacity: 0.2;
+      
+      
+    }
+    
+    .modal .modal-dialog .card .card-img-overlay .card{
+      width: 100% !important;
+      height: 95vh !important;
+      margin: 0px !important;
+      opacity: 0.5;
+      border: 5px solid #a31515 !important;
+      
+    }
+    .modal .modal-dialog .card .card-img-overlay .card img{
+      height: 25vh !important;
+      width: 50% !important;
+      border: 5px solid #a31515;
+      margin-left: 25%!important;
+      border-radius: 100% !important;
+    
+    }
+    .modal .modal-dialog .card .card-img-overlay .card .card-body{
+      height: fit-content !important;
+      width: 100% !important;
+      padding: 0px 10px !important;
+      margin-left: 0% !important;
+      text-align: center;
+    }
+    .modal .modal-dialog .card .card-img-overlay .card .card-body .card-text{
+      font-size: 14px !important;
+      text-align: justify;
+    }
   }
 
   /* =================== BIG SCREEN CATEGORIES ==========================*/
@@ -797,6 +881,7 @@
     width: 100%;
     background-color: #761c1c;
     position: relative;
+    scroll-behavior: smooth;
   }
 .book-text{
     text-align: start;
@@ -841,4 +926,40 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+ /* <!-- ==================================== ABOUT ALICE MODAL STYLE ============================ --> */
+ .modal .modal-dialog .card{
+  /* background-color: #000; */
+  background-position: center;
+  background-size: cover;
+}
+.modal .modal-dialog .card .card-img{
+  height: 100vh;
+  width: 100%;
+  /* background-color: #761c1c; */
+  opacity: 0.2;
+  
+}
+
+.modal .modal-dialog .card .card-img-overlay .card{
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  opacity: 0.5;
+  border: 5px solid #a31515 !important;
+  
+}
+.modal .modal-dialog .card .card-img-overlay .card img{
+  height: 75vh;
+  width: 98%;
+  border: 5px solid #a31515;
+  margin: 5% 2%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.modal .modal-dialog .card .card-img-overlay .card .card-body{
+  height: fit-content;
+  width: 100%;
 }
